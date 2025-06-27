@@ -62,12 +62,12 @@ h1 {
     text-align: justify;
 }
 
-.topicos {
+.topicos{
     display: flex;
     margin-bottom: 30px;
 }
 
-.icone-topico {
+.icone-topico{
     width: 50px;
     height: 50px;
     background-color: rgb(189, 134, 68);
@@ -76,7 +76,7 @@ h1 {
     padding: 6px 3px 0;
     border-radius: 10px 10px 0 10px;
 }
-.texto-topico {
+.texto-topico{
     border-radius: 0px 10px 10px 10px;
     margin-top: 10px;
     width: calc(100% - 100px);
@@ -85,3 +85,33 @@ h1 {
     color: white;
     padding: 3px 10px;
 }
+
+.largura-padrao{
+    max-width: 1000px;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+.w-50{
+    width: 50%;
+    padding: 30px;
+}
+
+.item-produtos {
+    padding: 10px;
+    background-color: rgb(248, 248, 248);
+    border: 2px rgb(172, 172, 172) solid  ;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 5px rgb(211, 211, 211) ;
+    border-radius: 5px;
+}
+.item-produtos i , .item-produtos span {
+    background-color: rgb(223, 224, 155);
+    padding: 5px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    color: rgb(31, 31, 117);
+}
+
